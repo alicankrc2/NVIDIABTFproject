@@ -17,7 +17,10 @@ This project addresses the problem of detecting and localizing sound sources, sp
 - **Circular microphone array mounted on a tripod**  
 - **Jetson Nano 2GB** for embedded real-time processing  
 - **7” Waveshare Touchscreen** for GUI visualization
-  
+
+![System Overview](/photos/3.jpg)
+![GUI Overview](/photos/4.jpg)
+
 The system captures multichannel audio, applies GCC-PHAT to compute the time differences between microphones, and estimates the **azimuth and elevation angles** of the sound source. It was trained and tested using a dataset collected in both indoor and semi-open environments, and achieved **average localization errors under 3 degrees** with traditional methods.
 
 Due to its low power consumption, mobility, and cost-effectiveness, **Jetson Nano** was selected as the main embedded deployment platform.
@@ -35,16 +38,16 @@ This repository provides a simple and clear implementation of the **GCC-PHAT alg
 Several undergraduate and graduate theses were completed within the scope of this project. You can access the PDF versions below:
 
 🧑‍🎓 Abdullah Y. & Ayşe K. (2024)
-"GCC-PHAT Tabanlı İki Mikrofonla Ses Konum Tespiti Sistemi"
-📄 Download PDF
+"A Two-Microphone Sound Source Localization System Based on GCC-PHAT"
+📄 [Download PDF](/theses/2.pdf)
 
 🧑‍🎓 Mücahit D. & Ömer T. (2024)
-"Dört Mikrofonla Ses Açısı Tespiti ve Geometrik Hesaplama Yöntemleri"
-📄 Download PDF
+"Sound Angle Estimation and Geometric Computation Methods Using a Four-Microphone Setup"
+📄 [Download PDF](/theses/3.pdf)
 
 🎓 Umut K. & Mehmet S. (2024)
-"GCC Özellikleriyle Derin Öğrenmeye Dayalı Ses Yönü Tahmini"
-📄 Download PDF
+"Deep Learning-Based Sound Direction Estimation Using GCC Features"
+📄 [Download PDF](/theses/1.pdf)
 
 🙏 Acknowledgments
 
