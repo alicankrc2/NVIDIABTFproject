@@ -1,4 +1,4 @@
-# NVIDIABTFproject
+# Sound Source Localization and Speech Translation for Earthquake Victims
 GCC-PHAT based sound source localization with an 8-microphone array. Supported by NVIDIA and BTF.
 
 **Supported by:**  
