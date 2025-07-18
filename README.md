@@ -18,8 +18,7 @@ This project addresses the problem of detecting and localizing sound sources, sp
 - **Jetson Nano 2GB** for embedded real-time processing  
 - **7” Waveshare Touchscreen** for GUI visualization
 
-![System Overview](/photos/3.jpg)
-![GUI Overview](/photos/4.jpg)
+![System Overview](/photos/4.jpg)
 
 The system captures multichannel audio, applies GCC-PHAT to compute the time differences between microphones, and estimates the **azimuth and elevation angles** of the sound source. It was trained and tested using a dataset collected in both indoor and semi-open environments, and achieved **average localization errors under 3 degrees** with traditional methods.
 
